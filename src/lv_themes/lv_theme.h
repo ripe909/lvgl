@@ -245,6 +245,15 @@ typedef struct
         } spinbox;
 #endif
 
+#if LV_USE_SPINVAL != 0
+        struct
+        {
+            lv_style_t * bg;
+            lv_style_t * cursor;
+            lv_style_t * sb;
+        } spinval;
+#endif
+
 #if LV_USE_LIST
         struct
         {

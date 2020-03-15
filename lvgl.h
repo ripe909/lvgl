@@ -71,6 +71,7 @@ extern "C" {
 #include "src/lv_objx/lv_preload.h"
 #include "src/lv_objx/lv_calendar.h"
 #include "src/lv_objx/lv_spinbox.h"
+#include "src/lv_objx/lv_spinval.h"
 
 #include "src/lv_draw/lv_img_cache.h"
 
